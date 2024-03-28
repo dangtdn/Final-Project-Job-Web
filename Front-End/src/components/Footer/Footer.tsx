@@ -26,10 +26,6 @@ const footerCandidate = [
 ];
 const footerEmployer = [
   {
-    name: "Browse candidates",
-    link: "/candidate",
-  },
-  {
     name: "Browse category",
     link: "/all-categories",
   },
@@ -47,26 +43,26 @@ const footerEmployer = [
   },
 ];
 const quickLink = [
-  {
-    name: "About Us",
-    link: "/about-us",
-  },
+  // {
+  //   name: "About Us",
+  //   link: "/about-us",
+  // },
   {
     name: "Contact Us",
     link: "/contact-us",
   },
-  {
-    name: "Privacy Policy",
-    link: "/privacy-policy",
-  },
-  {
-    name: "Terms of Use",
-    link: "/terms-of-use",
-  },
-  {
-    name: "FAQ",
-    link: "/faq",
-  },
+  // {
+  //   name: "Privacy Policy",
+  //   link: "/privacy-policy",
+  // },
+  // {
+  //   name: "Terms of Use",
+  //   link: "/terms-of-use",
+  // },
+  // {
+  //   name: "FAQ",
+  //   link: "/faq",
+  // },
 ];
 
 const Footer = () => {
@@ -80,17 +76,15 @@ const Footer = () => {
           <div className="md:grid gap-8 md:grid-cols-12 pt-16 pb-14">
             <div className="xl:col-span-4 lg:col-span-4 md:col-span-12 mb-10 xl:mb-0 xl:pr-10">
               <h3 className="text-lg text-white font-bold mb-8 leading-4">
-                About Company
+                About Us
               </h3>
               <p
                 className="text-xxs font-normal leading-6 mb-6"
                 style={{ color: "rgba(255, 255, 255, 0.7)" }}
               >
-                Lorem Ipsum is simply dummy text of the{" "}
-                <br className="hidden xl:inline" /> printing and typesetting
-                industry. Lorem <br className="hidden xl:inline" /> Ipsum has
-                been the industrys standard <br className="hidden xl:inline" />{" "}
-                dummy text
+                TDT Works is the leading recruitment website in Vietnam, aiming
+                to support students in finding job opportunities as well as
+                creating conditions for employers to find talented candidates.
               </p>
               <div className="text-xxs text-white font-normal leading-6 mb-6 flex gap-4 items-center">
                 <ImageOpt
@@ -100,8 +94,8 @@ const Footer = () => {
                   alt="icon"
                   noPlaceholder
                 />
-                Company Location here - Lorem{" "}
-                <br className="hidden xl:inline" /> Ipsum is simple Dummy Text
+                Ton Duc Thang University - District 7{" "}
+                <br className="hidden xl:inline" /> Ho Chi Minh city, Viet Nam
               </div>
               <a
                 href="tel:1-202-555-0106"
@@ -127,7 +121,7 @@ const Footer = () => {
                   alt="icon"
                   noPlaceholder
                 />
-                info@example.com
+                tdtworks@tdtu.edu.com
               </a>
             </div>
             <div className="xl:col-span-3 lg:col-span-4 md:col-span-6 mb-10 xl:mb-0 xl:pl-10">
@@ -178,7 +172,7 @@ const Footer = () => {
             style={{ borderTop: "1px solid rgba(255, 255, 255, 0.2)" }}
           >
             <p className="text-xs text-white leading-4">
-              © {FullYear} Mata Jobs | All Right Reserved
+              © {FullYear} TDT Works | All Right Reserved
             </p>
             <ul className="social flex gap-6">
               <li>
@@ -252,7 +246,7 @@ const Footer = () => {
       {/* Footer End */}
 
       <footer className="flex h-16 w-full items-center justify-center border-t">
-        © {FullYear} Tailwindkits. All rights reserved. | Privacy Policy
+        © {FullYear} TDTU. All rights reserved. | Privacy Policy
       </footer>
     </>
   );

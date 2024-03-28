@@ -57,12 +57,12 @@ const Banner = ({
           <div className="text-center">
             <h1 className="text-xxl xl:text-xxxl font-bold text-white text-center leading-none mb-3">
               Find Your Dream Job <br className="hidden xl:inline" />
-              With Brand Name
+              At TDT Works
             </h1>
             <p className="text-lg font-normal text-white leading-8">
-              Lorem Ipsum is simply dummy text of the printing and{" "}
+              TDT Works support students in finding job opportunities as well as{" "}
               <br className="hidden xl:inline" />
-              typesetting industry’s standard dummy text
+              creating conditions for employers to find talented candidates.
             </p>
           </div>
           <div

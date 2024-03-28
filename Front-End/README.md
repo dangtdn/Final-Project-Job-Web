@@ -6,7 +6,7 @@ Build on Nextjs 13 with Tailwindcss
 
 Deploy on [Vercel](https://vercel.com/)
 
-URL : https://point-of-sale-be.vercel.app/
+URL : https://job-web-fe.vercel.app/
 
 ## Getting Started
 

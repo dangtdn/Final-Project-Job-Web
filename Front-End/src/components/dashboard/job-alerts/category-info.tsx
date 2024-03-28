@@ -30,7 +30,7 @@ const CategoryInfo = () => {
     : [];
 
   const handlePageChange = (data: any) => {
-    setCurrentPage(data.selected + 1);
+    setCurrentPage(data.selected);
   };
 
   if (categoryError) return <div>failed to load</div>;
@@ -178,6 +178,7 @@ const CategoryInfo = () => {
               totalCount={categoryData?.length}
               showPerPage={ShowPerPage}
               handlePageChange={handlePageChange}
+              currentPage={currentPage}
             />
           </div>
         </>

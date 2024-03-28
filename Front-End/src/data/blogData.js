@@ -1,35 +1,35 @@
 export const blogsData = [
   {
     id: "1",
-    title: "Simple & Awesome Blog Title Here Lorem Ipsum Dummy Text",
+    title: "How to Excel in Your First Developer Job",
     slug: "single-blog",
-    date: "17 July 2022",
+    date: "December 10, 2023",
     excerpt:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Starting your first job as a developer can be exciting and challenging. Here are some tips to help you excel in your new role.",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum exercitationem perspiciatis saepe quam facilis iure ut veritatis voluptates repellat nobis adipisci nisi quod suscipit nulla, fuga maxime hic quibusdam cupiditate, eveniet accusamus aperiam, harum totam soluta natus? Dolorem unde ratione ex error aspernatur. Expedita explicabo perferendis consequatur doloribus fugiat dolores quidem totam. Dignissimos, modi velit fuga aliquam aut corporis praesentium ullam cumque quasi facere voluptates sequi consequatur officiis dicta tempore, incidunt nobis atque minus non explicabo animi iure sint vitae vel! Dignissimos, beatae fugit, cum iste doloremque repellat assumenda, magnam distinctio dolorum expedita magni vitae excepturi esse placeat porro inventore?",
+      "Congratulations on landing your first developer job! This is an exciting milestone in your career journey. As you embark on this new adventure, it's normal to feel a mix of excitement and nervousness. However, with the right mindset and preparation, you can set yourself up for success...",
     cover_image: "/assets/img/post/blog-img-1.webp",
   },
   {
     id: "2",
-    title: "Simple & Awesome Blog Title Here Lorem Ipsum Dummy Text",
+    title: "Top 10 Programming Languages to Learn in 2024",
     slug: "single-blog",
-    date: "17 July 2022",
+    date: "December 15, 2023",
     excerpt:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "With technology evolving rapidly, staying up-to-date with programming languages is essential. Here are the top languages to learn in 2024.",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum exercitationem perspiciatis saepe quam facilis iure ut veritatis voluptates repellat nobis adipisci nisi quod suscipit nulla, fuga maxime hic quibusdam cupiditate, eveniet accusamus aperiam, harum totam soluta natus? Dolorem unde ratione ex error aspernatur. Expedita explicabo perferendis consequatur doloribus fugiat dolores quidem totam. Dignissimos, modi velit fuga aliquam aut corporis praesentium ullam cumque quasi facere voluptates sequi consequatur officiis dicta tempore, incidunt nobis atque minus non explicabo animi iure sint vitae vel! Dignissimos, beatae fugit, cum iste doloremque repellat assumenda, magnam distinctio dolorum expedita magni vitae excepturi esse placeat porro inventore?",
+      "As we approach the new year, it's a great time to evaluate which programming languages are worth learning in 2024. With technology evolving at a rapid pace, staying up-to-date with the latest languages and frameworks is essential for developers...",
     cover_image: "/assets/img/post/blog-img-2.webp",
   },
   {
     id: "3",
-    title: "Simple & Awesome Blog Title Here Lorem Ipsum Dummy Text",
+    title: "Mastering React: Tips and Tricks for Beginners",
     slug: "single-blog",
-    date: "17 July 2022",
+    date: "December 20, 2023",
     excerpt:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "React is a popular JavaScript library for building user interfaces. Here are some tips and tricks to help beginners master React.",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum exercitationem perspiciatis saepe quam facilis iure ut veritatis voluptates repellat nobis adipisci nisi quod suscipit nulla, fuga maxime hic quibusdam cupiditate, eveniet accusamus aperiam, harum totam soluta natus? Dolorem unde ratione ex error aspernatur. Expedita explicabo perferendis consequatur doloribus fugiat dolores quidem totam. Dignissimos, modi velit fuga aliquam aut corporis praesentium ullam cumque quasi facere voluptates sequi consequatur officiis dicta tempore, incidunt nobis atque minus non explicabo animi iure sint vitae vel! Dignissimos, beatae fugit, cum iste doloremque repellat assumenda, magnam distinctio dolorum expedita magni vitae excepturi esse placeat porro inventore?",
+      "React is a powerful JavaScript library for building user interfaces. Whether you're just starting out with React or looking to level up your skills, there are always new tips and tricks to learn. In this article, we'll explore some key strategies for mastering React and building...",
     cover_image: "/assets/img/post/blog-img-3.webp",
   },
 ];

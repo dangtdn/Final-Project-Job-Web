@@ -149,7 +149,7 @@ export default function FindJob() {
   }, [jobFilter]);
 
   const handlePageChange = (data: any) => {
-    setCurrentPage(data.selected + 1);
+    setCurrentPage(data.selected);
   };
 
   return (
@@ -205,6 +205,7 @@ export default function FindJob() {
                           totalCount={allJobs?.totalJobCount}
                           showPerPage={jobsPerPage}
                           handlePageChange={handlePageChange}
+                          currentPage={currentPage}
                         />
                       )}
                     </div>

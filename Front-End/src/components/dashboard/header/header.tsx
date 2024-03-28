@@ -19,10 +19,11 @@ import {
   Menu,
 } from "@/components/@menuData/menu";
 import { BiLogOut } from "react-icons/bi";
-import { srcDefaultImg } from "@/constants/appConstants";
+import { srcDefaultImg, srcDefaultLogo } from "@/constants/appConstants";
 import { IoNotificationsCircle } from "react-icons/io5";
 import moment from "moment";
 import { Logo } from "@/components/icons";
+import ImageOpt from "../../optimize/image";
 
 const fetcher = (url: string) => authAxios(url).then((res) => res.data);
 
@@ -73,14 +74,24 @@ const Header = () => {
                   data-config-id="brand"
                 >
                   <span className="hidden xl:flex items-center">
-                    <Logo
+                    {/* <Logo
                       className="w-[146px] h-[33px] text-themePrimary"
                       dark={true}
+                    /> */}
+                    <ImageOpt
+                      className="rounded-full object-cover object-right p-1 border border-solid border-gray-500"
+                      src={srcDefaultLogo}
+                      alt="Logo image"
+                      width={100}
+                      height={55}
                     />
+                    <span className="flex align-items-center justify-content-center text-xl font-bold text-themePrimary">
+                      Works
+                    </span>
                   </span>
                   {/* Mobile Logo Text */}
-                  <h1 className="m-0 pr-3 text-4xl font-bold text-black xl:hidden lg:block">
-                    M
+                  <h1 className="m-0 pr-3 text-4xl font-bold xl:hidden lg:block">
+                    TDT
                   </h1>
                 </Link>
               </div>

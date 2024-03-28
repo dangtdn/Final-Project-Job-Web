@@ -237,7 +237,7 @@ const AllResumes = () => {
   };
 
   const handlePageChange = (data: { selected: number }) => {
-    setCurrentPage(data.selected + 1);
+    setCurrentPage(data.selected);
   };
 
   return (
@@ -407,6 +407,7 @@ const AllResumes = () => {
               totalCount={data?.length}
               showPerPage={ShowPerPage}
               handlePageChange={handlePageChange}
+              currentPage={currentPage}
             />
           </div>
         )}

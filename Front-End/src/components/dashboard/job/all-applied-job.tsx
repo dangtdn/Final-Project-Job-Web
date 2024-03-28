@@ -68,7 +68,7 @@ const AllApplications = () => {
     : [];
 
   const handlePageChange = (data: any) => {
-    setCurrentPage(data.selected + 1);
+    setCurrentPage(data.selected);
   };
 
   const onRemove = (id: any, userId: any) => {
@@ -240,6 +240,7 @@ const AllApplications = () => {
             totalCount={getData()?.length}
             showPerPage={ShowPerPage}
             handlePageChange={handlePageChange}
+            currentPage={currentPage}
           />
         </div>
       )}
@@ -293,7 +294,7 @@ const TableItem = ({
           {item?.cvFile !== "undefined" && (
             <div>
               <a
-                href={`${item?.cvFile.split("pdf")[0]}jpg`}
+                href={`${item?.cvFile?.split("pdf")[0]}jpg`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-themeDark whitespace-nowrap !mt-2 inline-block hover:text-white hover:bg-themePrimary transition-all duration-300 ease-in-out bg-green-100 rounded text-sm !px-4 !py-1"

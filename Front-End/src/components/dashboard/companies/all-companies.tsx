@@ -264,7 +264,7 @@ const AllCompanies = () => {
     : [];
 
   const handlePageChange = (data: { selected: number }) => {
-    setCurrentPage(data.selected + 1);
+    setCurrentPage(data.selected);
   };
 
   return (
@@ -423,6 +423,7 @@ const AllCompanies = () => {
             totalCount={data?.length}
             showPerPage={ShowPerPage}
             handlePageChange={handlePageChange}
+            currentPage={currentPage}
           />
         </div>
       )}

@@ -179,7 +179,7 @@ const JobAlertsInfo = () => {
     : [];
 
   const handlePageChange = (data: any) => {
-    setCurrentPage(data.selected + 1);
+    setCurrentPage(data.selected);
   };
   return (
     <section className="mb-6">
@@ -339,6 +339,7 @@ const JobAlertsInfo = () => {
             totalCount={data?.length}
             showPerPage={ShowPerPage}
             handlePageChange={handlePageChange}
+            currentPage={currentPage}
           />
         </div>
       )}

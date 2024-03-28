@@ -14,13 +14,7 @@ export const filters = [
       "4+ Year",
       "5+ Year",
     ],
-    jobTypes: [
-      "Full Time",
-      "Part Time",
-      "Internship",
-      "Freelance",
-      "Contact Base",
-    ],
+    jobTypes: ["Full Time", "Part Time", "Internship", "Freelance", "Remote"],
     region: ["America", "Europe", "Asia", "Africa"],
     revenue: ["0-5000", "5000-10000", "10000-20000", "20000-30000"],
     tags: [

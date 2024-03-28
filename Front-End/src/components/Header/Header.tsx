@@ -1,8 +1,7 @@
 "use client";
 
-import styled from "@emotion/styled";
 import Link from "next/link";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 import React, { useState } from "react";
 import { HiChevronDown } from "react-icons/hi";
 import { MdClose } from "react-icons/md";
@@ -19,7 +18,7 @@ import {
 import { Logo } from "../icons";
 import { BiLogOut } from "react-icons/bi";
 import Image from "next/image";
-import { srcDefaultImg } from "@/constants/appConstants";
+import { srcDefaultImg, srcDefaultLogo } from "@/constants/appConstants";
 
 const Header = () => {
   const { stickyRef, sticky } = useSticky();
@@ -54,17 +53,37 @@ const Header = () => {
             <div className="flex items-center">
               {/* Desktop logo here ... */}
               <Link href="/" className="hidden sm:flex">
-                <Logo
+                {/* <Logo
                   className="w-[146px] h-[33px] text-themePrimary"
                   dark={true}
+                /> */}
+                <ImageOpt
+                  className="rounded-full object-cover object-right p-1 border border-solid border-gray-500"
+                  src={srcDefaultLogo}
+                  alt="Logo image"
+                  width={100}
+                  height={55}
                 />
+                <span className="flex align-items-center justify-content-center text-xl font-bold text-themePrimary">
+                  Works
+                </span>
               </Link>
               {/* Mobile logo here ... */}
               <Link href="/" className="sm:hidden flex">
-                <Logo
+                {/* <Logo
                   className="w-[100px] h-[33px] text-themePrimary"
                   dark={true}
+                /> */}
+                <ImageOpt
+                  className="rounded-full object-cover object-right p-1 border border-solid border-gray-500"
+                  src={srcDefaultLogo}
+                  alt="Logo image"
+                  width={100}
+                  height={55}
                 />
+                <span className="flex align-items-center justify-content-center text-xl font-bold text-themePrimary">
+                  Works
+                </span>
               </Link>
             </div>
             <div>
@@ -108,14 +127,14 @@ const Header = () => {
                               />
                             )}
                             {!userData?.avatar && (
-                            <Image
-                              className="rounded-full object-cover object-right p-1 border border-solid border-gray-500"
-                              src={srcDefaultImg}
-                              alt="User image"
-                              width={48}
-                              height={48}
-                            />
-                             )}
+                              <Image
+                                className="rounded-full object-cover object-right p-1 border border-solid border-gray-500"
+                                src={srcDefaultImg}
+                                alt="User image"
+                                width={48}
+                                height={48}
+                              />
+                            )}
                           </div>
                           <div>
                             <p className="text-sm leading-8">

@@ -79,7 +79,7 @@ const CompanyDataList = () => {
     : [];
 
   const handlePageChange = (data: any) => {
-    setCurrentPage(data.selected + 1);
+    setCurrentPage(data.selected);
   };
 
   useEffect(() => {
@@ -162,6 +162,7 @@ const CompanyDataList = () => {
                   totalCount={AllCompanies?.totalCompanyCount}
                   showPerPage={companiesPerPage}
                   handlePageChange={handlePageChange}
+                  currentPage={currentPage}
                 />
               )}
             </div>
